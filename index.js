@@ -39,7 +39,7 @@ function unlock (cache, log, u, cb) {
     return process.nextTick(cb)
   } else if (locked === true) {
     myLocks[lf] = false
-    lockFile.unlock(lockFileName(cache, log, u), cb)
+    lockFile.unlock(lf, cb)
   } else {
     throw new Error("Attempt to unlock " + u + ", which hasn't been locked")
   }
