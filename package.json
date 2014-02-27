@@ -1,0 +1,28 @@
+{
+  "name": "npm-cache-lock",
+  "version": "0.0.0",
+  "description": "I am locking during installations",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.8"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robertkowalski/npm-cache-lock.git"
+  },
+  "homepage": "https://github.com/robertkowalski/npm-cache-lock",
+  "keywords": [
+    "npm",
+    "lock",
+    "cache"
+  ],
+  "author": "Robert Kowalski <rok@kowalski.gd>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/robertkowalski/npm-cache-lock/issues"
+  }
+}
