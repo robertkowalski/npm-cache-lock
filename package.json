@@ -3,8 +3,13 @@
   "version": "0.0.0",
   "description": "I am locking during installations",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "lockfile": "~0.4.0",
+    "npm-cache-dir": "~1.0.0"
+  },
   "devDependencies": {
+    "mkdirp": "~0.3.5",
+    "rimraf": "~2.2.6",
     "tap": "~0.4.8"
   },
   "scripts": {
