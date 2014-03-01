@@ -1,6 +1,6 @@
 {
   "name": "npm-cache-lock",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "I am locking during installations",
   "main": "index.js",
   "dependencies": {
